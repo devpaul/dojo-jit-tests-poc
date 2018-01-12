@@ -1,0 +1,11 @@
+{
+	"extends": "./node_modules/@dojo/cli-test-intern/intern/intern.json",
+	"node": {
+		"plugins+": [
+			"./support/intern/tsnode-plugin.js"
+		]
+	},
+	"suites": [
+		"./tests/unit/all.ts"
+	]
+}
